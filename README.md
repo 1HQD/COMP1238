@@ -1,13 +1,14 @@
-## Number row characters
-!
-@
-\#
-$
-%
-^
-&
-*
-(
-)
-_
-+
+# Number row characters
+###
+* !
+* @
+* \#
+* $
+* %
+* ^
+* &
+* *
+* (
+* )
+* _
+* +
