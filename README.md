@@ -1,17 +1,17 @@
 # Number row characters
 ###
-- !(Dollar Sign)
-- @(Ampersand)
-- \#(Hash
-- $
-- %
-- ^
-- &
-- \*
-- (
-- )
-- _
-- \+
+- ! (Exclamation Mark)
+- @ (Ampersand)
+- \# (Hash)
+- $ (Dollar Sign)
+- % (Percent Sign)
+- ^ (Carot Sign)
+- & (And symbol)
+- \* (Asterisk)
+- ( (Open circle bracket)
+- ) (Closed circle bracket)
+- _ (Underscore)
+- \+ (Plus symbol)
 # Useful Links
 ###
 * [Markdown Live Preview](https://markdownlivepreview.com/)
