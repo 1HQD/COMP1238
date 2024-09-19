@@ -14,8 +14,9 @@
 - \+
 # Useful Links
 ###
-[Markdown Live Preview](https://markdownlivepreview.com/)
-[George Brown Brightspace](https://learn.georgebrown.ca/d2l/)
+* [Markdown Live Preview](https://markdownlivepreview.com/)
+* [George Brown Brightspace](https://learn.georgebrown.ca/d2l/)
+###
 # Experiment
-😄
-😙
+* 😄
+* 😙
