@@ -1,3 +1,7 @@
+# COMP1238
+# LAB 6
+* [CLI commands](docs/cli.md)
+
 # Number row characters
 ###
 - ! (Exclamation Mark)
@@ -20,3 +24,6 @@
 # Experiment
 * 😄
 * 😙
+
+
+[def]: docs/cli.md
