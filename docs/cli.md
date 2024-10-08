@@ -22,7 +22,8 @@ The cd command changes the current directory.
 * cd ~: Changes to the home directory.
 
 ## **ls:**
-* Description: The ls command lists the contents of a directory.
+### **Description:** 
+The ls command lists the contents of a directory.
 
 ### **Usage:**
 * ls
@@ -32,7 +33,8 @@ The cd command changes the current directory.
 * ls -a: Includes hidden files (those starting with a dot).
 
 ## **rm:**
-* Description: The rm command removes (deletes) files or directories.
+### **Description:**
+The rm command removes (deletes) files or directories.
 
 ### **Usage:**
 * rm filename
@@ -42,7 +44,8 @@ The cd command changes the current directory.
 * rm -f filename: Forcefully deletes a file without prompting for confirmation.
 
 ## **sudo:**
-* Description: The sudo command allows a permitted user to execute a command as the superuser or another user, as specified by the security policy.
+### **Description:** 
+The sudo command allows a permitted user to execute a command as the superuser or another user, as specified by the security policy.
 
 ### **Usage:**
 * sudo command
