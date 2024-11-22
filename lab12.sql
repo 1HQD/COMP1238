@@ -35,16 +35,27 @@ FROM assignments
 WHERE SUBSTRING(due_date, 6, 2) = '09';
 
 -- a query to find all assignments where the due_date is missing.
+SELECT course_id, title, status, due_date
+FROM assignments
+WHERE due_date ISNULL
 
 --OPTIONAL TASK
 
 -- a query to list each course_id along with the total number of assignments associated with it. 
-SELECT course_id, COUNT(*) AS assignment_count
-FROM assignments
-GROUP BY course_id
+SELECT courses.course_id, 
+COUNT(assignments.title) AS assignment_count
+FROM courses
+LEFT JOIN assignments
+ON courses.course_id = assignments.course_id
+GROUP BY courses.course_id;
 
 -- a query to find all courses that do not have any assignments.
-Hint: LEFT JOIN ... WHERE assignments.id IS NULL
+SELECT courses.course_id, courses.course_name, COUNT(assignments.status) AS assignments_count
+FROM courses
+LEFT JOIN  assignments
+ON courses.course_id = assignments.course_id
+GROUP BY courses.course_id, courses.course_name
+HAVING COUNT(assignments.status) = 0;
 
 
 
